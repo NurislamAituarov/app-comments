@@ -1,0 +1,26 @@
+:root {
+  --primary: #6b5bfd;
+  --greyLight: #cdd5f7;
+  --greyLight-2: #f8f9ff;
+  --greyDark: #646b8a;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  overflow-y: scroll;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.6px;
+  line-height: 1.4;
+  -webkit-user-select: none;
+  backface-visibility: hidden;
+  -webkit-font-smoothing: subpixel-antialiased;
+}
